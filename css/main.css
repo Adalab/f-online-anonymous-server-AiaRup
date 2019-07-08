@@ -25,7 +25,7 @@ body {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  padding: 0 30px 30px;
+  padding: 0 30px;
 }
 
 /* HEADER */
@@ -120,7 +120,7 @@ body {
   font-family: "Roboto Slab", serif;
   text-transform: uppercase;
   max-width: 340px;
-  margin: 90px 0 0;
+  margin: 120px 0 0;
 }
 
 /* FOOTER */
@@ -131,6 +131,7 @@ body {
   text-align: center;
   border-radius: 5px;
   padding: 6px 0;
+  margin-bottom: 30px;
 }
 
 .page__footer-copy {
@@ -140,7 +141,7 @@ body {
 @media all and (min-width: 768px) {
   .page {
     margin: 0 auto;
-    padding: 30px 60px;
+    padding: 0 60px;
     max-width: 990px;
   }
   .page__main-title {
